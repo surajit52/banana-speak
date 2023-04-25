@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@1,500&display=swap');
+
+:root {
+    --primary-color: #facc15;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color:black;
+    padding: 3rem;
+    border: 1rem ;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-image {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+textarea::placeholder {font-family: 'Montserrat', sans-serif; font-style: italic; font-size: large;}
+input::placeholder {font-family: 'Montserrat', sans-serif; font-style: italic; font-size: large;}
+
+
+
+.output-indicator{
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+
+.footer .footer-text {
+    font-size: medium;
+    font-style:italic;
+    font-weight: 400;
+    padding: 1rem;
+}
+
